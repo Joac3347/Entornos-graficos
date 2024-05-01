@@ -14,7 +14,7 @@ nav {
   /* background-color: aqua; */
   padding: 5px 5%;
   display: flex;
-  /* justify-content: space-between; */
+  justify-content: space-between;
   align-items: center;
   width: 100%;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
@@ -22,27 +22,36 @@ nav {
 }
 
 .icon {
-  width: 3%;
-  height: 3%;
+  width: 30px;
+  height: 30px;
   margin: 0 10px;
+}
+.logo{
+  box-sizing: border-box;
 }
 
 li {
   display: inline-block;
   margin: 0px 15px;
+  border-radius: 5px;
 }
 a {
   text-decoration: none;
   color: black;
+  padding: 4px 7px;
+  transition: 0.3s;
 }
 .avatar {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 30vw;
-  margin-left: 100px;
+  
 }
 .avatar img {
   width: 5%;
   height: 5%;
+}
+nav ul li a:hover {
+  background-color: #c4c4c436;
 }
